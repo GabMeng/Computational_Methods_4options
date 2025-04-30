@@ -11,35 +11,35 @@ The project combines:
 - Implied volatility surface estimation
 - Risk analysis under market model misspecification
 
-## 📁 Contents
+## Contents
 
 - `CODE_CF_MarchExam_PnL.ipynb`: Python notebook implementing the entire modeling and analysis pipeline.
 - `Report_Mengoni_ComputationalFinance-4.pdf`: Full written report explaining the methodology, theory, and results.
 
-## 🧠 Methodologies Used
+##  Methodologies Used
 
-### ✅ Heston Model Simulation
+###  Heston Model Simulation
 - Implements stochastic volatility modeling with CIR process
 - Discretized using:
   - Euler-Maruyama scheme
   - Andersen's Quadratic-Exponential (QE) scheme
 
-### ✅ Option Pricing
+###  Option Pricing
 - Monte Carlo pricing of European put options
 - Fourier techniques:
   - Inverse Fourier Transform
   - COS Method
   - Carr & Madan FFT pricing
 
-### ✅ Implied Volatility
+###  Implied Volatility
 - Computed using a bisection algorithm to back out BS volatility from Heston prices
 - Surface and smile plots are generated
 
-### ✅ Profit & Loss (PnL) and Value at Risk (VaR)
+###  Profit & Loss (PnL) and Value at Risk (VaR)
 - PnL estimated from Heston evolution, evaluated using Black-Scholes assumptions
 - VaR calculated under implied volatility shifts (±5%, ±10%, ±50%)
 
-## 📊 Results Summary
+## Results Summary
 - Pricing methods compared in accuracy and speed
 - Implied volatility surface validated against benchmark
 - PnL distributions and corresponding VaR values analyzed and visualized
