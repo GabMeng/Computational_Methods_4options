@@ -14,7 +14,7 @@ The project combines:
 ## Contents
 
 - `CODE_CF_MarchExam_PnL.ipynb`: Python notebook implementing the entire modeling and analysis pipeline.
-- `ReportOptionMthds`: Full written report explaining the methodology, theory, and results.
+- `ReportOptionsMthds`: Full written report explaining the methodology, theory, and results.
 
 ##  Methodologies Used
 
